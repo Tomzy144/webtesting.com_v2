@@ -1,5 +1,5 @@
 
-<header>
+<header class="fadeInDown animated">
         <div class="header-inner-div">
             <div class="logo-div">Hostit</div>
                 <ul>
@@ -7,14 +7,13 @@
                     <li>Profile</li>  
                 </ul>
 
-                <a href="<?php echo $website_url ?>/login/signup.php">
+                <a href="<?php echo $website_url ?>/admin/signup.php">
                 <button class="btn-list">Sign Up</button></a>
                 
-                <a href="<?php echo $website_url ?>/login">
+                <a href="<?php echo $website_url ?>/admin">
                 <button class="btn-list">Login </button></a>
      
-               <div class="btn mobile_btn" onclick="_open_menu()"> <i class="fa fa-reorder (alias)"></i></div>
-               <!-- <div class="btn mobile_btn2" onclick="myFunction()"> <i class="fa fa-remove (alias)"></i></div> -->
+               <div class="btn mobile_btn" onclick="_open_menu()"> <i class="bi-list"></i></div>
         </div> 
         
 </header>
