@@ -16,8 +16,8 @@
         <ul>
             <li>Home</li>
             <li>Profile</li>
-            <a href="<?php echo $website_url ?>/login"><li><button class="btn_list">Sign Up</button></li></a>
-            <a href="<?php echo $website_url ?>/login/signup.php"><li><button class="btn_list">Login</button></li></a> 
+            <a href="<?php echo $website_url ?>/login"><li><button class="btn_list" >Sign Up</button></li></a>
+            <a href="<?php echo $website_url ?>/login"><li><button class="btn_list"  >Login</button></li></a> 
         </ul>
     </div>
     

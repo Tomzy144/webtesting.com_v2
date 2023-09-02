@@ -7,8 +7,8 @@
                     <li>Profile</li>  
                 </ul>
 
-                <a href="<?php echo $website_url ?>/admin/signup.php">
-                <button class="btn-list">Sign Up</button></a>
+                <a href="<?php echo $website_url ?>/admin">
+                <button class="btn-list"onclick="_next_page('next_3')">Sign Up</button></a>
                 
                 <a href="<?php echo $website_url ?>/admin">
                 <button class="btn-list">Login </button></a>

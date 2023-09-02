@@ -68,13 +68,15 @@ header .header-inner-div ul li{
   line-height: 50px;
   cursor: pointer;
 }
-header .header-inner-div ul li .btn-list{
-  display: block;
-}
 
 header .header-inner-div ul li:hover{
   color:#03A7D3;
 }
+
+header .header-inner-div a .btn-list{
+  display: block;
+}
+
 header .header-inner-div .btn{
   background-color: transparent;
   height: 50px;
@@ -88,7 +90,8 @@ header .header-inner-div .btn{
   float: right;
 }
 
-header .header-inner-div .btn-list{
+
+header .header-inner-div a .btn-list{
   background-color: transparent;
   height: 50px;
   padding: 0px 30px;
@@ -99,6 +102,12 @@ header .header-inner-div .btn-list{
   margin: 5px 0px 0px 10px;
   font-size: 15px;
   float: right;
+}
+header .header-inner-div a .btn-list:hover{
+  color: #ffff;
+  border:  #03A7D3 1px solid ;
+  background-color: #03A7D3;
+  transition: 1s;
 }
 
 header .header-inner-div .mobile_btn{

@@ -30,5 +30,22 @@ function handle(){
    
 }
 
+function _get_page(page){
+    $('#more-info').html('<div class="ajax-loader"><img src="all-images/images/ajax-loader.gif"/></div>').fadeIn('fast');
+    action='get_page';
+    var dataString ='action='+ action+'&page='+ page;
+    $.ajax({
+    type: "POST",
+    url: "config/code.php",
+    data: dataString,
+    cache: false,
+    success: function(html){
+        $('#more-info').html(html);
+    }
+    });
+}
+
+
+
 
 

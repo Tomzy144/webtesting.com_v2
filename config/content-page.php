@@ -6,7 +6,7 @@
             <li>PROFILE</li>
             <li>ABOUT US</li>
         </ul>
-        <a href="<?php echo $website_url ?>/admin/signup.php"><li><button class="btn_list">Sign Up</button></li></a>
+        <a href="<?php echo $website_url ?>/admin/"><li><button class="btn_list">Sign Up</button></li></a>
         <a href="<?php echo $website_url ?>/admin"><li><button class="btn_list">Login</button></li></a> 
     </div>
 </div>   
