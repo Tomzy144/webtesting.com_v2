@@ -73,10 +73,6 @@ header .header-inner-div ul li:hover{
   color:#03A7D3;
 }
 
-header .header-inner-div a .btn-list{
-  display: block;
-}
-
 header .header-inner-div .btn{
   background-color: transparent;
   height: 50px;
@@ -102,6 +98,7 @@ header .header-inner-div a .btn-list{
   margin: 5px 0px 0px 10px;
   font-size: 15px;
   float: right;
+  display: block;
 }
 header .header-inner-div a .btn-list:hover{
   color: #ffff;
@@ -222,6 +219,9 @@ header .header-inner-div .mobile_btn:hover{
   header .header-inner-div{
     width: 90%; 
   }
+  header .header-inner-div .logo-div{
+    width: auto;
+  }
 }
 
 @media (max-width:800px){
@@ -239,6 +239,9 @@ header .header-inner-div .mobile_btn:hover{
 @media (max-width:800px){
   header .header-inner-div .mobile_btn{
     display: block;
+  }
+  header .header-inner-div a .btn-list{
+    display: none;
   }
 }
 
