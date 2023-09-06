@@ -1,5 +1,5 @@
 <div class="overlay-div" onclick="_close_menu()"></div>
-<div class="slide-side-div" >
+<div class="slide-side-div">
     <div class="div-in">
         <ul>
             <li>HOME</li>
