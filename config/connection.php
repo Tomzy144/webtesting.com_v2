@@ -7,8 +7,8 @@ error_reporting(E_ALL ^ E_NOTICE ^ E_DEPRECATED ^ E_WARNING);
 ?>
 
 <?php 
-//$website_url= "http://localhost/webtesting.com_v2"
-$website_url= "http://192.168.0.176/webtesting.com_v2"
+$website_url= "http://localhost/webtesting.com_v2"
+//$website_url= "http://192.168.0.176/webtesting.com_v2"
 ?>
 
 <?php
